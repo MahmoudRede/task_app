@@ -1,0 +1,44 @@
+import 'package:flutter/material.dart';
+
+class ColorManager {
+  static const Color solidGreen = Color(0xFF04CE70);
+  static const Color blue = Colors.blue;
+  static const Color darkGreen = Color(0xFF061611);
+  static const Color lightGreen = Color(0xFF061A10);
+  static const Color brown = Color(0xFFE6DCD2);
+  static const Color brownDark = Color(0xFF604E40);
+  static const Color darkWhite = Color(0xFFFAF6F3);
+  static const Color black = Colors.black;
+  static const Color white = Colors.white;
+  static const Color red = Colors.red;
+  static const Color purple = Colors.deepPurple;
+  static Color grey =  const Color(0xFF9C9C9C);
+  static const Color primaryColor = Color(0xff1f1f1f);
+  static const Color secondaryColor = Color(0xFFFFCC30);
+  static const Color lightColor2 = Color(0xFFF6F7F8);
+  static const Color darkBlueColor = Color(0xFF161D35);
+  static const Color textColor = Color(0xFF1D1D1D);
+  static const Color lightGrey2 = Color(0xFFE6DCD2);
+  static const Color darkGrey = Color(0xFF101820);
+  static const primary = Color(0xFF1F1F39);
+  static const secondPrimary = Color(0xFF2F2F42);
+  static const appGreen = Color(0xFF00CE7C);
+  static const background = Color(0xFFEDEFF5);
+  static const lightGrey = Color(0xFF6E6E6E);
+  static var whiteWithOpacity = const Color(0xFFFFFFFF).withOpacity(0.5);
+  static var lineColor = lightGrey.withOpacity(0.25);
+  static const rateStars = Color(0XFFE0EA29);
+  static const lightBlue = Color(0XFF8FAEE1);
+  static const darkBlue = Color(0XFF070a11);
+  static const darkBlue2 = Color(0XFF32192e);
+  static const success = Color(0xFF4CAF50);
+  static const warning = Color(0xFFffb401);
+  static const error = Color(0xFFF53A56);
+  static const lighttext1 = Color(0xFF29B2FE);
+  static const lighttext2 = Color(0xFF405A7B);
+  static const gray = Color(0xFFD2D2D2);
+  static const hide = Color(0x00000000);
+  static const border = Color(0xFFB9B5B5);
+  static const borderBlue = Color(0xFF0047BA);
+  static const textFieldHint = Color(0xFFB9B5B5);
+}

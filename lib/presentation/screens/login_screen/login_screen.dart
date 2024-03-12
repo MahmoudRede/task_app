@@ -40,7 +40,7 @@ class LoginScreen extends StatelessWidget {
                 appBar: AppBar(
                   toolbarHeight: 0.0,
                 ),
-                body: Container(
+                body: SizedBox(
                   width: SizeConfig.width,
                   height: SizeConfig.height,
                   child: Form(

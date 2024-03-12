@@ -16,6 +16,7 @@ class AuthCubit extends Cubit<AuthState>{
 
   static AuthCubit get(context) => BlocProvider.of(context);
 
+  /// login
   Future<void> loginWithFirebase({
     required String email,
     required String password,
@@ -37,6 +38,7 @@ class AuthCubit extends Cubit<AuthState>{
   }
 
 
+  /// sign up
   Future<void> signUpWithFirebase({
     required String email,
     required String phone,
@@ -66,6 +68,7 @@ class AuthCubit extends Cubit<AuthState>{
   }
 
 
+  /// save user info
   Future<void> saveUserInfoToFirebase({
     required String email,
     required String phone,
@@ -99,6 +102,7 @@ class AuthCubit extends Cubit<AuthState>{
 
   UserModel ?userModel;
 
+  /// get user info
   Future<void> getUserInfo({
     required String uId,
   })async{
@@ -123,6 +127,7 @@ class AuthCubit extends Cubit<AuthState>{
     });
   }
 
+  /// sign out
   Future<void> signOut({
     required context,
   })async{

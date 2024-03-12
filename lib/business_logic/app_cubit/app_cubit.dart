@@ -14,6 +14,7 @@ class AppCubit extends Cubit<AppState>{
 
   WeatherModel? weatherModel;
 
+  /// get current weather
   Future<void> getCurrentWeather({
    required String country,
   })async{
@@ -43,6 +44,7 @@ class AppCubit extends Cubit<AppState>{
 
   String ?image='';
 
+  /// Manage weather image
   String selectWeatherImage(String description){
 
     if(description=='Sunny'){

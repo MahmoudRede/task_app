@@ -8,7 +8,7 @@ import 'package:task_app/business_logic/auth_cubit/auth_states.dart';
 import 'package:task_app/firebase_options.dart';
 import 'package:task_app/helper/local/shared_preference.dart';
 import 'package:task_app/helper/remote/dio_helper.dart';
-import 'package:task_app/presentation/screens/start_screen/start_screen.dart';
+import 'package:task_app/presentation/screens/login_screen/login_screen.dart';
 import 'package:task_app/styles/theme_manager/theme_manager.dart';
 
 void main() async{
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             theme: getApplicationTheme(context),
-            home: const  StartScreen(),
+            home:  LoginScreen(),
           );
         }
       ),
